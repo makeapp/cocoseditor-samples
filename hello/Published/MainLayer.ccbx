@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Document
+        jsControlled="true"
+        jsController="MainLayer"
+        resolution="default"
+        >
+
+    <Resolutions>
+        <Resolution centeredOrigin="false" ext="iphone" height="1280" width="720" name="default" scale="1"/>
+        <Resolution centeredOrigin="false" ext="iphone" height="720" width="1280" name="default1" scale="1"/>
+    </Resolutions>
+
+    <Animations>
+        <Animation autoPlay="true"
+                   id="0"
+                   name="Default Timeline"
+                   length="10"
+                   chainedId="0"
+                   offset="0.0"
+                   position="0.0"
+                   resolution="30"
+                   scale="128">
+            <CallbackChannel>
+            </CallbackChannel>
+            <SoundChannel>
+            </SoundChannel>
+        </Animation>
+
+    </Animations>
+    <Layer
+            positionX="0" positionY="0.0"
+            sizeType="Percent"
+            width="100" height="100"
+            anchorPointX="0.5" anchorPointY="0.5" ignoreAnchorPoint="true"
+            scaleX="1" scaleY="1"
+            >
+
+        <LayerColor positionType="LeftBottom" width="720" height="1280" positionX="0" positionY="0" anchorPointX="0"
+                    anchorPointY="0" color="#ffbfff3c"/>
+        <Sprite positionType="LeftBottom" width="480.0" height="320.0" positionX="358.0" positionY="934.0"
+                anchorPointX="0.5"
+                anchorPointY="0.5" src="Resources/HelloWorld.png" var="cocos2d" target="Doc">
+        </Sprite>
+        <Menu positionType="LeftBottom" width="40" height="40" positionX="362.0" positionY="557.0" anchorPointX="0.5"
+              anchorPointY="0.5" scaleX="1" scaleY="1">
+            <MenuItem positionType="LeftBottom" width="40" height="40" positionX="-4.0" positionY="-22.0"
+                      anchorPointX="0.5"
+                      anchorPointY="0.5"
+                      normalImage="Resources/CloseNormal.png"
+                      selectedImage="Resources/CloseSelected.png" disabledImage="Resources/CloseSelected.png"
+                      target="Doc" onClick="onExitClicked" scaleX="2" scaleY="2"/>
+        </Menu>
+        </Layer>
+
+
+</Document>

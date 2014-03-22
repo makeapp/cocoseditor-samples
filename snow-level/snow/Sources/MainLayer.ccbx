@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Document
+        jsControlled="true"
+        jsController="MainLayer"
+        resolution="default"
+        >
+
+    <Resolutions>
+        <Resolution centeredOrigin="false" ext="iphone" height="1280" width="720" name="default" scale="1"/>
+        <Resolution centeredOrigin="false" ext="iphone" height="720" width="1280" name="default1" scale="1"/>
+    </Resolutions>
+
+    <Animations>
+        <Animation autoPlay="true"
+                   id="0"
+                   name="Default Timeline"
+                   length="10"
+                   chainedId="0"
+                   offset="0.0"
+                   position="0.0"
+                   resolution="30"
+                   scale="128">
+            <CallbackChannel>
+            </CallbackChannel>
+            <SoundChannel>
+            </SoundChannel>
+        </Animation>
+
+    </Animations>
+    <Layer
+            positionX="0" positionY="0.0"
+            sizeType="Percent"
+            width="100" height="100"
+            anchorPointX="0.5" anchorPointY="0.5" ignoreAnchorPoint="true"
+            scaleX="1" scaleY="1"
+            >
+
+        <Sprite positionType="LeftBottom" width="720" height="1280" positionX="0" positionY="0"
+                anchorPointX="0"
+                anchorPointY="0" src="Resources/m_bg_main.jpg">
+        <Sprite positionType="LeftBottom" width="182.0" height="238.0" positionX="117.0" positionY="1133.0" anchorPointX="0.5"
+                                         anchorPointY="0.5" src="Resources/snow_packer.plist/m_indicator2.png"/>
+            <LabelTTF positionType="LeftBottom" width="200" height="50" positionX="303.0" positionY="1177.0" anchorPointX="0.5"
+                      anchorPointY="0.5" text="分数：" fontSize="30" vAlign="Center" hAlign="Top" color="#ffff3219"
+                      visible="false"/>
+            <LabelBMFont positionType="LeftBottom" width="40" height="40" positionX="241.0" positionY="1068.0" anchorPointX="0.5"
+                         anchorPointY="0.5" src="Resources/fonts/score.fnt" text="123" scaleX="1" scaleY="1"
+                         var="scoreLabel" target="Doc" visible="false"/>
+            <Sprite positionType="LeftBottom" width="113.0" height="120.0" positionX="350.0" positionY="747.0" anchorPointX="0.5"
+                                         anchorPointY="0.5" src="Resources/snow_packer.plist/m_monster_g_0001.png"
+                                         var="monster" target="Doc"/>
+            <Menu positionType="LeftBottom" width="100" height="100" positionX="608.0" positionY="1166.0" anchorPointX="0.5"
+                  anchorPointY="0.5">
+                <MenuItem positionType="LeftBottom" width="107" height="112" positionX="13.0" positionY="18.0"
+                          anchorPointX="0.5"
+                          anchorPointY="0.5" normalImage="Resources/snow_packer.plist/m_bun_pause_s.png"
+                          onClick="onPauseClicked" target="Doc"/>
+            </Menu>
+        </Sprite>
+        <Menu positionType="LeftBottom" width="40" height="40" positionX="371.0" positionY="299.0" anchorPointX="0.5"
+              anchorPointY="0.5" scaleX="2.4" scaleY="1.725" visible="false">
+            <MenuItem positionType="LeftBottom" width="40" height="40" positionX="0" positionY="0"
+                      anchorPointX="0"
+                      anchorPointY="0"
+                      normalImage="Resources/CloseNormal.png"
+                      selectedImage="Resources/CloseSelected.png" disabledImage="Resources/CloseSelected.png"
+                      target="Doc" onClick="onExitClicked"/>
+        </Menu>
+    </Layer>
+
+
+</Document>

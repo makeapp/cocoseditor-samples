@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Document
+        jsControlled="true"
+        jsController="GameSelectLayer"
+        resolution="default"
+        >
+
+  <Resolutions>
+    <Resolution centeredOrigin="false" ext="iphone" height="1280" width="720" name="default" scale="1"/>
+    <Resolution centeredOrigin="false" ext="iphone" height="720" width="1280" name="default1" scale="1"/>
+  </Resolutions>
+
+  <Animations>
+    <Animation autoPlay="true"
+               id="0"
+               name="Default Timeline"
+               length="10"
+               chainedId="0"
+               offset="0.0"
+               position="0.0"
+               resolution="30"
+               scale="128">
+      <CallbackChannel>
+      </CallbackChannel>
+      <SoundChannel>
+      </SoundChannel>
+    </Animation>
+
+  </Animations>
+
+  <Layer
+          positionX="0" positionY="0"
+          width="100" height="100" sizeType="Percent"
+          anchorPointX="0.5" anchorPointY="0.5" ignoreAnchorPoint="true"
+          scaleX="1" scaleY="1"
+          touchEnabled="true" positionType="LeftBottom">
+
+    <LayerColor positionType="LeftBottom" width="720" height="1280" positionX="0" positionY="0" anchorPointX="0"
+                  anchorPointY="0" color="#ff20b4ff"/>
+      <Sprite name="bg_g" var="b1" target="Doc" positionX="360" positionY="641"
+            positionType="LeftBottom" anchorPointX="0.5" anchorPointY="0.5"
+            scaleX="1" scaleY="1" scaleType="Absolute" ignoreAnchorPoint="false"
+            src="Resources/s_bg_grade.png" visible="false" color="#ffffffff"/>
+    <Sprite positionType="LeftBottom" width="587.0" height="834" positionX="361.0" positionY="689.0" anchorPointX="0.5"
+            anchorPointY="0.5" src="Resources/s_bg_grade.png">
+        <Node positionType="LeftBottom" width="40" height="100" positionX="42.0" positionY="42.0" anchorPointX="0"
+            anchorPointY="0" target="Doc" var="listTop">
+      <ScrollView name="levelScrollPanel"
+                  var="levelScrollPanel" target="Doc" positionX="0" positionY="100"
+                  positionType="LeftBottom" width="510" height="500"
+                  sizeType="Absolute" anchorPointX="0" anchorPointY="0"
+                  scaleX="1" scaleY="1"
+                  clipsToBounds="true"
+                  direction="Horizontal"
+                  bounces="true"
+                  ignoreAnchorPoint="true" visible="true" touchEnabled="true" mouseEnabled="true">
+      </ScrollView></Node>
+        <Node positionType="LeftBottom" width="40" height="40" positionX="268.0" positionY="73.0" anchorPointX="0.5"
+              anchorPointY="0.5" var="dotNode" target="Doc"/>
+
+    </Sprite>
+  </Layer>
+
+
+</Document>

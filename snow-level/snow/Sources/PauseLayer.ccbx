@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Document
+        jsControlled="true"
+        jsController=""
+        resolution="default"
+        >
+
+    <Resolutions>
+        <Resolution centeredOrigin="false" ext="iphone" height="1280" width="720" name="default" scale="1"/>
+        <Resolution centeredOrigin="false" ext="iphone" height="720" width="1280" name="default1" scale="1"/>
+    </Resolutions>
+
+    <Animations>
+        <Animation autoPlay="true"
+                   id="0"
+                   name="Default Timeline"
+                   length="10"
+                   chainedId="0"
+                   offset="0.0"
+                   position="0.0"
+                   resolution="30"
+                   scale="128">
+            <CallbackChannel>
+            </CallbackChannel>
+            <SoundChannel>
+            </SoundChannel>
+        </Animation>
+
+    </Animations>
+
+    <Layer
+            positionX="0" positionY="0"
+            width="100" height="100" sizeType="Percent"
+            anchorPointX="0.5" anchorPointY="0.5" ignoreAnchorPoint="true"
+            scaleX="1" scaleY="1"
+            touchEnabled="true" positionType="LeftBottom" target="Owner" mouseEnabled="true" keyboardEnabled="true">
+        <LayerColor positionType="LeftBottom" width="720" height="1280" positionX="0" positionY="0" anchorPointX="0"
+                    anchorPointY="0" color="#5757565a" touchEnabled="true" mouseEnabled="true" keyboardEnabled="true"/>
+        <Sprite positionType="LeftBottom" width="587.0" height="834.0" positionX="362.0" positionY="645.0"
+                anchorPointX="0.5"
+                anchorPointY="0.5" src="Resources/s_bg_grade.png">
+        <!--<LayerColor positionType="LeftBottom" width="600" height="800" positionX="66.0" positionY="234.0"
+                    anchorPointX="0"
+                    anchorPointY="0" color="#ffff55fd" touchEnabled="true" mouseEnabled="true" keyboardEnabled="true"
+                    accelerometerEnabled="true">-->
+            <Sprite positionType="LeftBottom" width="113.0" height="120.0" positionX="307.0" positionY="588.0"
+                    anchorPointX="0.5"
+                    anchorPointY="0.5" src="Resources/snow_packer.plist/m_monster_g_0002.png"
+                    scaleX="2" scaleY="2"/>
+            <Menu positionType="LeftBottom" width="40" height="40" positionX="281.0" positionY="259.0"
+                  anchorPointX="0.5"
+                  anchorPointY="0.5">
+                <MenuItem positionType="LeftBottom" width="99" height="94" positionX="-136.0" positionY="-4.0"
+                          anchorPointX="0.5" anchorPointY="0.5" normalImage="Resources/snow_packer.plist/m_bun_back.png"
+                          target="Owner" onClick="onRenewClicked"
+                          selectedImage="Resources/snow_packer.plist/m_bun_back.png"/>
+                <MenuItem positionType="LeftBottom" width="99" height="94" positionX="30.0" positionY="-3.0"
+                          anchorPointX="0.5"
+                          anchorPointY="0.5" normalImage="Resources/snow_packer.plist/m_bun_again.png" target="Owner"
+                          onClick="onReplayClicked" selectedImage="Resources/snow_packer.plist/m_bun_again.png"/>
+                <MenuItem positionType="LeftBottom" width="99" height="94" positionX="201.0" positionY="-1.0"
+                          anchorPointX="0.5" anchorPointY="0.5" normalImage="Resources/snow_packer.plist/m_bun_list.png"
+                          target="Owner" onClick="onSelectClicked"
+                          selectedImage="Resources/snow_packer.plist/m_bun_list.png"/>
+            </Menu>
+        <!--</LayerColor>-->
+        </Sprite>
+
+    </Layer>
+
+
+</Document>

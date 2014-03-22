@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Document
+        jsControlled="true"
+        jsController=""
+        resolution="default"
+        >
+
+  <Resolutions>
+    <Resolution centeredOrigin="false" ext="iphone" height="1280" width="720" name="default" scale="1"/>
+    <Resolution centeredOrigin="false" ext="iphone" height="720" width="1280" name="default1" scale="1"/>
+  </Resolutions>
+
+  <Animations>
+    <Animation autoPlay="true"
+               id="0"
+               name="Default Timeline"
+               length="10"
+               chainedId="0"
+               offset="0.0"
+               position="0.0"
+               resolution="30"
+               scale="128">
+      <CallbackChannel>
+      </CallbackChannel>
+      <SoundChannel>
+      </SoundChannel>
+    </Animation>
+
+  </Animations>
+
+  <Layer
+          positionX="0" positionY="0"
+          width="100" height="100" sizeType="Percent"
+          anchorPointX="0.5" anchorPointY="0.5" ignoreAnchorPoint="true"
+          scaleX="1" scaleY="1"
+          touchEnabled="true" positionType="LeftBottom" target="Owner">
+    <LayerColor positionType="LeftBottom" width="100" height="100" positionX="0" positionY="0" anchorPointX="0.5"
+                anchorPointY="0.5" sizeType="Percent" ignoreAnchorPoint="true" color="#c2000000">
+      <Sprite positionType="LeftBottom" width="126.0" height="99.0" positionX="361.0" positionY="842.0" anchorPointX="0.5"
+              anchorPointY="0.5" src="Resources/public.plist/mb_pause.png">
+        <Sprite positionType="LeftBottom" width="294.0" height="76.0" positionX="66.0" positionY="-75.0" anchorPointX="0.5"
+                anchorPointY="0.5" src="Resources/public.plist/mb_paused.png"/>
+      </Sprite>
+      <Menu positionType="LeftBottom"  positionX="1.0" positionY="1.0" anchorPointX="0.5"
+            anchorPointY="0.5">
+        <MenuItem positionType="LeftBottom" width="89.0" height="92.0" positionX="645.0" positionY="483.0" anchorPointX="0.5"
+                  anchorPointY="0.5" normalImage="Resources/public.plist/mb_bun_set.png" target="Owner" onClick="onRenewClicked"/>
+        <MenuItem positionType="LeftBottom" width="89.0" height="92.0" positionX="101.0" positionY="480.0" anchorPointX="0.5"
+                  anchorPointY="0.5" normalImage="Resources/public.plist/mb_bun_return.png" target="Owner" onClick="onReplayClicked"/>
+        <MenuItem positionType="LeftBottom" width="411.0" height="128.0" positionX="371.0" positionY="480.0" anchorPointX="0.5"
+                  anchorPointY="0.5" normalImage="Resources/public.plist/mb_bun_continue_game.png" target="Owner"
+                  onClick="onReturnClicked"/>
+      </Menu>
+    </LayerColor>
+  </Layer>
+
+
+</Document>
