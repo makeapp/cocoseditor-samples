@@ -283,11 +283,11 @@ MainLayer.prototype.onUpdate = function (dt) {
             }
         }
     }
-}
+};
 
 MainLayer.prototype.onExitClicked = function () {
     cc.log("onExitClicked");
-}
+};
 
 
 MainLayer.prototype.onExit = function () {
