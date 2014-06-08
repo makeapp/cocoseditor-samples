@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Document
+        jsControlled="true"
+        jsController=""
+        resolution="default"
+        >
+
+  <Resolutions>
+    <Resolution centeredOrigin="false" ext="iphone" height="1280" width="720" name="default" scale="1"/>
+    <Resolution centeredOrigin="false" ext="iphone" height="720" width="1280" name="default1" scale="1"/>
+  </Resolutions>
+
+  <Animations>
+    <Animation autoPlay="true"
+               id="0"
+               name="Default Timeline"
+               length="10"
+               chainedId="0"
+               offset="0.0"
+               position="0.0"
+               resolution="30"
+               scale="128">
+      <CallbackChannel>
+      </CallbackChannel>
+      <SoundChannel>
+      </SoundChannel>
+    </Animation>
+
+  </Animations>
+  <Sprite
+          positionX="0" positionY="0"
+          sizeType="Absolute"
+          anchorPointX="0.5" anchorPointY="0.5" ignoreAnchorPoint="true"
+          scaleX="1.0" scaleY="1.0"
+          positionType="LeftBottom" src="res/snow_packer.plist/s_bun_red_normal.png" target="Owner" var="bgSprite" width="156" height="83"
+          color="#ff15ffa0">
+    <LayerColor positionType="LeftBottom" width="156" height="83" positionX="0" positionY="0" anchorPointX="0"
+                  anchorPointY="0" color="#ff0cffa2" visible="true"/>
+      <Sprite positionType="LeftBottom" width="77.0" height="77.0" positionX="113.0" positionY="40.0" anchorPointX="0.5"
+                                         anchorPointY="0.5" src="res/snow_packer.plist/m_star_s.png"
+                                         scaleX="0.6" scaleY="0.6"/>
+    <LabelBMFont positionType="LeftBottom" width="40" height="40" positionX="39.0" positionY="56.0" anchorPointX="0.5"
+                 anchorPointY="0.5" text="2" src="res/fonts/s_number_gold.fnt" var="levelNum" target="Owner" name="levelNum"
+                 scaleX="1.5" scaleY="1.5"/>
+      </Sprite>
+
+
+</Document>

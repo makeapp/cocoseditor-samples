@@ -42,7 +42,26 @@
             <MenuItem positionType="LeftBottom" width="203" height="129" positionX="0" positionY="0" anchorPointX="0.5"
                       anchorPointY="0.5" onClick="onPlayClicked" normalImage="Resources/snow_packer.plist/m_play.png"
                       target="Doc" selectedImage="Resources/snow_packer.plist/m_play.png"/>
+            <MenuItem positionType="LeftBottom" positionX="-3.3333333" positionY="-171.66666" anchorPointX="0.5"
+                      anchorPointY="0.5" target="Doc" onClick="onTest" actionTarget="None"
+                      normalImage="Resources/snow_packer.plist/m_play.png" visible="false"/>
         </Menu>
+
+<!--
+        <Node positionType="LeftBottom" positionX="0" positionY="0" anchorPointX="0"
+              anchorPointY="0" name="anniu">
+            <Menu positionType="LeftBottom" positionX="335.66666" positionY="263.3333" anchorPointX="0.5"
+                  anchorPointY="0.5" target="Doc" name="an">
+                <MenuItem positionType="LeftBottom" positionX="13.333334" positionY="3.3333435" anchorPointX="0.5"
+                          anchorPointY="0.5" actionTarget="None" onClick="onClose" target="Doc"
+                          normalImage="Resources/snow_packer.plist/m_bun_again.png"
+                          name="anniudian"/>
+            </Menu>
+            <LabelTTF positionType="LeftBottom" positionX="331.0" positionY="62.0" anchorPointX="0.5"
+                      anchorPointY="0.5" var="writingLabelTTF" target="Doc" name="wenzi" text="确定" vAlign="Center"
+                      hAlign="Center" color="#ff000000" fontSize="48" visible="false"/>
+        </Node>-->
+
     </Layer>
 
 

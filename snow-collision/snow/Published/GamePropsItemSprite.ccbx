@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Document
+        jsControlled="true"
+        jsController=""
+        resolution="default"
+        >
+
+    <Resolutions>
+        <Resolution centeredOrigin="false" ext="iphone" height="1280" width="720" name="default" scale="1"/>
+        <Resolution centeredOrigin="false" ext="iphone" height="720" width="1280" name="default1" scale="1"/>
+    </Resolutions>
+
+    <Animations>
+        <Animation autoPlay="true"
+                   id="0"
+                   name="Default Timeline"
+                   length="10"
+                   chainedId="0"
+                   offset="0.0"
+                   position="0.0"
+                   resolution="30"
+                   scale="128">
+            <CallbackChannel>
+            </CallbackChannel>
+            <SoundChannel>
+            </SoundChannel>
+        </Animation>
+
+    </Animations>
+    <Sprite
+            positionX="0" positionY="0"
+            width="480" height="151" sizeType="Absolute"
+            anchorPointX="0.5" anchorPointY="0.5" ignoreAnchorPoint="true"
+            scaleX="1.0" scaleY="1.0"
+            positionType="LeftBottom" src="res/snow_packer_new.plist/s_bg_prop_normal.png" var="bgSprite"
+            target="Owner">
+        <LabelTTF positionType="LeftBottom" positionX="231.0" positionY="62.0" anchorPointX="0.5"
+                  anchorPointY="0.5" text="道具名字" fontSize="30" var="cellName" target="Owner" color="#ffff0007"
+                  fontName="Verdana"/>
+        <Sprite positionType="LeftBottom" positionX="84.0" positionY="60.0" anchorPointX="0.5"
+                anchorPointY="0.5" src="res/snow_packer_new.plist/m_skill1.png" width="93.0" height="71.0"
+                var="cellIcon" target="Owner"/>
+        <LabelTTF positionType="LeftBottom" positionX="367.0" positionY="62.0" anchorPointX="0.5"
+                  anchorPointY="0.5" text="金币" fontSize="28" var="cellGold" target="Owner" color="#ffef24ff"/>
+    </Sprite>
+
+
+</Document>

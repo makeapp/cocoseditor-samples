@@ -28,6 +28,7 @@
         </Animation>
 
     </Animations>
+
     <Layer
             positionX="0" positionY="0.0"
             sizeType="Percent"
@@ -37,7 +38,7 @@
             >
 
         <LayerColor positionType="LeftBottom" width="720" height="1280" positionX="0" positionY="0" anchorPointX="0"
-                    anchorPointY="0" color="#ffbfff3c"/>
+                    anchorPointY="0" color="#ffbfff3c" visible="true"/>
         <Sprite positionType="LeftBottom" width="480.0" height="320.0" positionX="358.0" positionY="934.0"
                 anchorPointX="0.5"
                 anchorPointY="0.5" src="Resources/HelloWorld.png" var="cocos2d" target="Doc">
@@ -51,7 +52,7 @@
                       selectedImage="Resources/CloseSelected.png" disabledImage="Resources/CloseSelected.png"
                       target="Doc" onClick="onExitClicked" scaleX="2" scaleY="2"/>
         </Menu>
-        </Layer>
+    </Layer>
 
 
 </Document>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Document
+        jsControlled="true"
+        jsController=""
+        resolution="default"
+        >
+
+    <Resolutions>
+        <Resolution centeredOrigin="false" ext="iphone" height="1280" width="720" name="default" scale="1"/>
+        <Resolution centeredOrigin="false" ext="iphone" height="720" width="1280" name="default1" scale="1"/>
+    </Resolutions>
+
+    <Animations>
+        <Animation autoPlay="true"
+                   id="0"
+                   name="Default Timeline"
+                   length="10"
+                   chainedId="0"
+                   offset="0.0"
+                   position="0.0"
+                   resolution="30"
+                   scale="128">
+            <CallbackChannel>
+            </CallbackChannel>
+            <SoundChannel>
+            </SoundChannel>
+        </Animation>
+
+    </Animations>
+
+    <Layer
+            positionX="0" positionY="0"
+            width="100" height="100" sizeType="Percent"
+            anchorPointX="0.5" anchorPointY="0.5" ignoreAnchorPoint="true"
+            scaleX="1" scaleY="1"
+            touchEnabled="true" positionType="LeftBottom">
+        <LayerColor positionType="LeftBottom" positionX="0" positionY="0" anchorPointX="0"
+                    anchorPointY="0" width="720" height="1280" color="#9e251a1a"/>
+        <Sprite positionType="LeftBottom" positionX="365.33334" positionY="671.6667" anchorPointX="0.5"
+                anchorPointY="0.5" src="res/s_bg_grade.png" width="587.0" height="834.0">
+            <Sprite positionType="LeftBottom" positionX="117.0" positionY="667.5" anchorPointX="0.5"
+                    anchorPointY="0.5" src="res/snow_packer_new.plist/m_star.png" width="96.0" height="99.0"
+                    var="star1" target="Owner"/>
+            <Sprite positionType="LeftBottom" positionX="301.5" positionY="719.5" anchorPointX="0.5" anchorPointY="0.5"
+                    src="res/snow_packer_new.plist/m_star.png" width="96.0" height="99.0" var="star2" target="Owner"/>
+            <Sprite positionType="LeftBottom" positionX="501.0" positionY="671.5" anchorPointX="0.5" anchorPointY="0.5"
+                    src="res/snow_packer_new.plist/m_star.png" width="96.0" height="99.0" var="star3" target="Owner"/>
+            <Sprite positionType="LeftBottom" positionX="305.0" positionY="488.66666" anchorPointX="0.5"
+                    anchorPointY="0.5" src="res/snow_packer_new.plist/m_goal.png" width="74.0" height="62.0"/>
+            <LabelTTF positionType="LeftBottom" positionX="311.0" positionY="343.66666" anchorPointX="0.5"
+                      anchorPointY="0.5" text="失败！" fontSize="40" color="#ffff2215"/>
+            <Button positionType="LeftBottom" positionX="188.33333" positionY="148.0" anchorPointX="0.5"
+                    anchorPointY="0.5" text="" fontName="Arabic Typesetting" normalColor="#ffffd2cc" fontSize="18"
+                    normalImage="res/snow_packer.plist/m_bun_list.png" preferedWidth="99" preferedHeight="94"
+                    action="onScoreLevelClicked" actionTarget="Owner" target="Owner" actionUpInside="true">
+
+            </Button>
+            <Button positionType="LeftBottom" positionX="422.0" positionY="146.66667" anchorPointX="0.5"
+                    anchorPointY="0.5" text="" fontName="Arabic Typesetting" normalColor="#ffffd2cc" fontSize="18"
+                    normalImage="res/snow_packer.plist/m_bun_again.png" preferedWidth="99" preferedHeight="94"
+                    action="onScoreReplayClicked" actionTarget="Owner" target="Owner" actionUpInside="true"/>
+        </Sprite>
+
+    </Layer>
+
+
+</Document>

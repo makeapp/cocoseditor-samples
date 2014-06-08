@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animations</key>
+	<dict>
+		<key>monster</key>
+		<dict>
+			<key>delay</key>
+			<string>0.2</string>
+			<key>frames</key>
+			<array>
+				<string>m_monster_g_0001.png</string>
+				<string>m_monster_g_0002.png</string>
+				<string>m_monster_g_0003.png</string>
+			</array>
+		</dict>
+	</dict>
+	<key>textureFileName</key>
+	<string>snow_packer.plist</string>
+</dict>
+</plist>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Document
+        jsControlled="true"
+        jsController="StartLayer"
+        resolution="default"
+        >
+
+    <Resolutions>
+        <Resolution centeredOrigin="false" ext="iphone" height="1280" width="720" name="default" scale="1"/>
+        <Resolution centeredOrigin="false" ext="iphone" height="720" width="1280" name="default1" scale="1"/>
+    </Resolutions>
+
+    <Animations>
+        <Animation autoPlay="true"
+                   id="0"
+                   name="Default Timeline"
+                   length="10"
+                   chainedId="0"
+                   offset="0.0"
+                   position="0.0"
+                   resolution="30"
+                   scale="128">
+            <CallbackChannel>
+            </CallbackChannel>
+            <SoundChannel>
+            </SoundChannel>
+        </Animation>
+
+    </Animations>
+
+    <Layer
+            positionX="0" positionY="0"
+            width="100" height="100" sizeType="Percent"
+            anchorPointX="0.5" anchorPointY="0.5" ignoreAnchorPoint="true"
+            scaleX="1" scaleY="1"
+            touchEnabled="true" positionType="LeftBottom" visible="true">
+        <LayerColor positionType="LeftBottom" width="720" height="1280" positionX="0" positionY="0" anchorPointX="0"
+                    anchorPointY="0" color="#ff10ff9e"/>
+        <Menu positionType="LeftBottom" width="40" height="40" positionX="354.0" positionY="712.0" anchorPointX="0.5"
+              anchorPointY="0.5">
+            <MenuItem positionType="LeftBottom" width="203" height="129" positionX="0" positionY="0" anchorPointX="0.5"
+                      anchorPointY="0.5" onClick="onPlayClicked" normalImage="res/snow_packer.plist/m_play.png"
+                      target="Doc" selectedImage="res/snow_packer.plist/m_play.png"/>
+            <MenuItem positionType="LeftBottom" positionX="-3.3333333" positionY="-171.66666" anchorPointX="0.5"
+                      anchorPointY="0.5" target="Doc" onClick="onTest" actionTarget="None"
+                      normalImage="res/snow_packer.plist/m_play.png" visible="false"/>
+        </Menu>
+
+<!--
+        <Node positionType="LeftBottom" positionX="0" positionY="0" anchorPointX="0"
+              anchorPointY="0" name="anniu">
+            <Menu positionType="LeftBottom" positionX="335.66666" positionY="263.3333" anchorPointX="0.5"
+                  anchorPointY="0.5" target="Doc" name="an">
+                <MenuItem positionType="LeftBottom" positionX="13.333334" positionY="3.3333435" anchorPointX="0.5"
+                          anchorPointY="0.5" actionTarget="None" onClick="onClose" target="Doc"
+                          normalImage="res/snow_packer.plist/m_bun_again.png"
+                          name="anniudian"/>
+            </Menu>
+            <LabelTTF positionType="LeftBottom" positionX="331.0" positionY="62.0" anchorPointX="0.5"
+                      anchorPointY="0.5" var="writingLabelTTF" target="Doc" name="wenzi" text="确定" vAlign="Center"
+                      hAlign="Center" color="#ff000000" fontSize="48" visible="false"/>
+        </Node>-->
+
+    </Layer>
+
+
+</Document>

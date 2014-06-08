@@ -64,6 +64,10 @@ StartLayer.prototype.onPlayClicked = function () {
     cc.BuilderReader.runScene("", "GameSelectLayer");
 }
 
+/*StartLayer.prototype.onClose = function () {
+    cc.BuilderReader.runScene("", "GameSelectLayer");
+}*/
+
 StartLayer.prototype.onExit = function () {
 
 }
