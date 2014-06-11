@@ -54,7 +54,6 @@ GamePropsLayer.prototype.onStartClicked = function () {
 
 
 var GamePropsLayerTableLayer = cc.Layer.extend({
-
     init: function () {
         if (!this._super()) {
             return false;
